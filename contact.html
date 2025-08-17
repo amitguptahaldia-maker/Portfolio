@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Amit Gupta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header>
+        <nav>
+            <div class="left">Amit's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Experience.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <h1>Contact Me</h1>
+
+            <div class="contact-info">
+                <p><strong>Email:</strong> amitguptahaldia@gmail.com</p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/amitguptahaldia-maker" target="_blank"></a></p>
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/amit-gupta-21937827b/" target="_blank">Bishakha Sharma</a></p>
+            </div>
+
+            <h2>Send a Query</h2>
+            <form id="contactForm">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Type your message here..." required rows="5"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Amit's Developer Portfolio</h3>
+                <p>&copy; 2025 Amit Gupta. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script>
+        // Form submission
+        const form = document.getElementById("contactForm");
+        form.addEventListener("submit", (e) => {
+            e.preventDefault();
+            alert("Thanks! Your message has been received.");
+            form.reset();
+        });
+    </script>
+</body>
+</html>
