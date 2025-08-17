@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills-Amit Gupta</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Amit's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Skills.html">Experience</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="experience-section">
+            <h1>My Skills</h1>
+
+           <!-- Skills Section -->
+<div class="skills-card">
+    <img src="images/skills.png" alt="Skills Icon">
+    <div class="skills-details">
+        <h3>Technical Skills</h3>
+        <ul>
+            <li><strong>Languages & Databases:</strong> Java, SQL</li>
+            <li><strong>Web Technologies:</strong> HTML, CSS, JavaScript</li>
+            <li><strong>Frameworks:</strong> React.js, Node.js, Express</li>
+            <li><strong>Database:</strong> MongoDB</li>
+        </ul>
+        <h4>Projects</h4>
+        <ul>
+            <li>Built interactive web games using <strong>HTML, CSS, and JavaScript</strong>:
+                <ul>
+                    <li><em>Tic-Tac-Toe</em></li>
+                    <li><em>Rock Paper Scissors</em></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+
+        
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Amit's Developer Portfolio</h3>
+                <p>&copy; 2025 Amit Gupta. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
