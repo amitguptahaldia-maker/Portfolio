@@ -7,8 +7,8 @@
 
 /* Body & Layout */
 body {
-    background-color: #78B9B5;
-    color: #0F828C;
+    background-color: #FAF9EE;
+    color: #333; /* Dark text for contrast */
     font-family: 'Ubuntu', sans-serif;
     display: flex;
     flex-direction: column;
@@ -26,13 +26,14 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 25px 120px;
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(8px);
+    background: #DCCFC0;
+    backdrop-filter: blur(6px);
 }
 
 nav .left {
     font-size: 2rem;
     font-weight: bold;
+    color: #333;
 }
 
 nav .right ul {
@@ -43,13 +44,13 @@ nav .right ul {
 
 nav .right ul li a {
     text-decoration: none;
-    color: inherit;
+    color: #333;
     font-weight: 500;
     transition: color .3s ease, font-size .3s ease;
 }
 
 nav .right ul li a:hover {
-    color: #065084;
+    color: #A2AF9B;
     font-size: 1.1rem;
 }
 
@@ -69,6 +70,7 @@ nav .right ul li a:hover {
 .leftSection {
     font-size: 2.2rem;
     font-weight: 500;
+    color: #333;
 }
 
 .leftSection div {
@@ -85,7 +87,7 @@ nav .right ul li a:hover {
 .purple,
 .text-gray,
 #element {
-    color: #065084;
+    color: #A2AF9B;
 }
 
 /* Section Common Styles */
@@ -96,11 +98,13 @@ nav .right ul li a:hover {
     max-width: 900px;
     margin: 50px auto;
     padding: 20px;
+    background-color: #EEEEEE;
+    border-radius: 12px;
 }
 
 h1 {
     font-size: 2.5rem;
-    color: #065084;
+    color: #333;
     text-align: center;
     margin-bottom: 25px;
 }
@@ -123,7 +127,7 @@ h1 {
 .skills-section h2,
 .certifications-section h2,
 .responsibility-section h2 {
-    color: #065084;
+    color: #333;
     margin-bottom: 15px;
     font-size: 1.6rem;
 }
@@ -152,20 +156,20 @@ h1 {
 
 .connect-links a {
     text-decoration: none;
-    color: white;
-    background-color: #065084;
+    color: #333;
+    background-color: #A2AF9B;
     padding: 10px 15px;
     border-radius: 6px;
     transition: background-color 0.3s ease;
 }
 
 .connect-links a:hover {
-    background-color: #043d54;
+    background-color: #DCCFC0;
 }
 
 /* Experience Cards */
 .experience-card {
-    background-color: rgba(15, 130, 140, 0.3);
+    background-color: #EEEEEE;
     padding: 20px;
     border-radius: 12px;
     display: flex;
@@ -192,12 +196,12 @@ h1 {
 
 .experience-details h3 {
     font-size: 1.2rem;
-    color: #065084;
+    color: #333;
 }
 
 .experience-meta {
     font-size: 0.95rem;
-    opacity: 0.9;
+    opacity: 0.8;
     margin: 6px 0 10px;
 }
 
@@ -213,13 +217,13 @@ h1 {
 .experience-details a {
     display: inline-block;
     margin-top: 10px;
-    color: #065084;
+    color: #A2AF9B;
     text-decoration: underline;
 }
 
 /* Projects */
 .project-card {
-    background-color: rgba(15, 130, 140, 0.2);
+    background-color: #EEEEEE;
     padding: 25px;
     border-radius: 12px;
     margin-bottom: 30px;
@@ -233,7 +237,7 @@ h1 {
 
 .project-card h3 {
     font-size: 1.5rem;
-    color: #065084;
+    color: #333;
     margin-bottom: 10px;
 }
 
@@ -249,19 +253,19 @@ h1 {
     padding: 8px 12px;
     border-radius: 6px;
     text-decoration: none;
-    color: white;
-    background-color: #065084;
+    color: #333;
+    background-color: #A2AF9B;
     transition: background-color 0.3s ease;
 }
 
 .project-links a:hover {
-    background-color: #043d54;
+    background-color: #DCCFC0;
 }
 
 .tech-stack {
     font-style: italic;
     margin-top: 8px;
-    color: #0F828C;
+    color: #666;
 }
 
 /* Contact Section */
@@ -270,11 +274,13 @@ h1 {
     margin: 50px auto;
     padding: 20px;
     text-align: center;
+    background-color: #EEEEEE;
+    border-radius: 12px;
 }
 
 .contact-section h1,
 .contact-section h2 {
-    color: #065084;
+    color: #333;
     margin-bottom: 20px;
 }
 
@@ -284,7 +290,7 @@ h1 {
 }
 
 .contact-info a {
-    color: #065084;
+    color: #A2AF9B;
     text-decoration: underline;
 }
 
@@ -299,7 +305,7 @@ h1 {
 #contactForm textarea {
     padding: 12px;
     border-radius: 6px;
-    border: 1px solid #065084;
+    border: 1px solid #A2AF9B;
     font-size: 1rem;
     width: 100%;
 }
@@ -312,21 +318,21 @@ h1 {
     padding: 12px;
     border-radius: 6px;
     border: none;
-    background-color: #065084;
-    color: white;
+    background-color: #A2AF9B;
+    color: #333;
     cursor: pointer;
     font-size: 1.1rem;
     transition: background-color 0.3s ease;
 }
 
 #contactForm button:hover {
-    background-color: #043d54;
+    background-color: #DCCFC0;
 }
 
 /* Footer */
 footer {
-    background-color: #065084;
-    color: white;
+    background-color: #A2AF9B;
+    color: #333;
     padding: 30px 50px;
     text-align: center;
     margin-top: auto;
@@ -355,7 +361,7 @@ footer {
 }
 
 .footer a {
-    color: white;
+    color: #333;
     text-decoration: none;
 }
 
@@ -395,3 +401,4 @@ footer {
         gap: 10px;
     }
 }
+
